@@ -1,3 +1,29 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "value": "raviteja",
+      "isCompleted": false,
+      "id": 1
+    },
+    {
+      "value": "koti",
+      "isCompleted": false,
+      "id": 2
+    },
+    {
+      "value": "rahul",
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "value": "krishna",
+      "isCompleted": false,
+      "id": 4
+    },
+    {
+      "value": "krishan gadi veera peramagadha",
+      "isCompleted": false,
+      "id": 5
+    }
+  ]
 }
