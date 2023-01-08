@@ -28,7 +28,7 @@ const TodoApp = () => {
   }, []);
   return (
     <div>
-      <h3>TodoApp</h3>
+      <h3>TodoApp is been deployed</h3>
       <TodoInput
         value={value}
         handleChange={handleChange}
