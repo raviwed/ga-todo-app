@@ -27,14 +27,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Setup Node
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
+          node_version:"16"
+      - name:Install Depende
         uses: actions/upload-pages-artifact@v1
 
   # Deployment job
